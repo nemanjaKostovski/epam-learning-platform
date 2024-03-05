@@ -4,6 +4,37 @@
 
 @layer base {
   html {
-    font-family: 'Montserrat', sans-serif, system-ui;
+    font-family: 'Montserrat', 'Poppins', sans-serif, system-ui;
   }
+}
+
+/* Custom button styles */
+.btn {
+  @apply text-base text-white font-medium rounded p-2;
+}
+
+.btn--primary {
+  @apply bg-indigo-500 disabled:bg-indigo-200 disabled:text-gray-400;
+}
+
+.btn--secondary {
+  @apply bg-green-500 disabled:bg-green-500;
+}
+
+.btn--important {
+  @apply bg-red-400 hover:bg-red-500 active:bg-red-500 disabled:bg-red-200 text-gray-400;
+}
+
+/* Custom input styles */
+
+.input {
+  @apply bg-gray-400 text-gray-600 focus:bg-white focus:text-black focus:border-purple-600 disabled:text-black;
+}
+
+.input--error {
+  @apply border-red-500 text-red-500;
+}
+
+.input--valid {
+  @apply border-green-500 text-green-500;
 }

@@ -1,4 +1,4 @@
-import Navbar from './components/Navbar';
+import Navbar from './components/common/Navbar';
 
 function App() {
   return (
@@ -24,22 +24,17 @@ function App() {
           className='mt-16'
         />
       </div>
-      <div className='flex justify-center items-center absolute ml-80'>
-        <img
-          src='/homepage2.png'
-          alt='homepage'
-          width='1176px'
-          height='384px'
-          className='mt-20 mb-20'
-        />
-        <h2 className='absolute top-36 text-indigo-600 text-4xl'>Join us</h2>
-        <p className='absolute w-1/2 text-center'>
-          Qui ut exercitation proident enim non tempor tempor ipsum ex nulla ea
-          adipsicing sit consequat enim eilit cupidadat o
-        </p>
-        <button className='ml-3 bg-indigo-500 h-10 mt-2 p-2 rounded text-white font-medium absolute bottom-36'>
-          Join us
-        </button>
+      <div className='bg-[url(./homepage2.png)] bg-no-repeat w-3/4 h-96 ml-[12.5%] mr-[12.5%]'>
+        <div className='flex flex-col justify-center items-center mt-20 mb-20 w-full h-96'>
+          <h2 className=' text-indigo-600 text-4xl'>Join us</h2>
+          <p className=' w-1/2 text-center'>
+            Qui ut exercitation proident enim non tempor tempor ipsum ex nulla
+            ea adipsicing sit consequat enim eilit cupidadat o
+          </p>
+          <button className='ml-3 bg-indigo-500 h-10 mt-2 p-2 rounded text-white font-medium'>
+            Join us
+          </button>
+        </div>
       </div>
     </>
   );
