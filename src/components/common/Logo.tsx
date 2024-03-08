@@ -8,7 +8,7 @@ function Learn() {
         alt='learn-logo'
         width='50px'
         height='36px'
-        className='inline-block'
+        className='inline-block h-9'
       />
       <span className='text-4xl font-semibold -ml-1'>learn</span>
     </Link>

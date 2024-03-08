@@ -10,7 +10,7 @@
 
 /* Custom button styles */
 .btn {
-  @apply text-base text-white font-medium rounded p-2;
+  @apply text-base text-white font-medium p-2;
 }
 
 .btn--primary {

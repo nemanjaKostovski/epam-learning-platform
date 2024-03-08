@@ -20,7 +20,9 @@ function Navbar() {
         <button className='bg-transparent border-0 text-indigo-600 font-medium'>
           Sign in
         </button>
-        <button className='btn btn--primary h-10 ml-3 mt-2'>Join us</button>
+        <button className='btn btn--primary h-10 ml-3 mt-2 rounded'>
+          Join us
+        </button>
       </div>
     </nav>
   );

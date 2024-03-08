@@ -1,4 +1,5 @@
 import Navbar from './components/common/Navbar';
+import Footer from './components/common/Footer';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           className='mt-16'
         />
       </div>
-      <div className='bg-[url(./homepage2.png)] bg-no-repeat w-3/4 h-96 ml-[12.5%] mr-[12.5%]'>
+      <section className='bg-[url(./homepage2.png)] bg-no-repeat w-3/4 h-96 ml-[12.5%] mr-[12.5%] mb-20'>
         <div className='flex flex-col justify-center items-center mt-20 mb-20 w-full h-96'>
           <h2 className=' text-indigo-600 text-4xl'>Join us</h2>
           <p className=' w-1/2 text-center'>
@@ -35,7 +36,8 @@ function App() {
             Join us
           </button>
         </div>
-      </div>
+      </section>
+      <Footer />
     </>
   );
 }
