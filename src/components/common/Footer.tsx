@@ -37,14 +37,23 @@ function Footer() {
           <p className='mb-10'>
             For product announcements and exclusive insights
           </p>
-          <input
-            className='h-10 w-80 rounded-lg rounded-r-none border-[1px] border-gray-500 pl-12'
-            type='text'
-            placeholder='Input your text'
-          />
-          <button className='btn btn--primary rounded-lg rounded-l-none w-32'>
-            Subscribe
-          </button>
+          <div className='relative'>
+            <img
+              src='/envelope.png'
+              alt='email-icon'
+              className='absolute top-3 left-3 w-4 h-4'
+            />
+            <div className='flex'>
+              <input
+                className='w-80 h-10 rounded-lg rounded-r-none border-[1px] border-gray-500 pl-12'
+                type='text'
+                placeholder='Input your email'
+              />
+              <button className='btn btn--primary rounded-lg rounded-l-none w-32'>
+                Subscribe
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
