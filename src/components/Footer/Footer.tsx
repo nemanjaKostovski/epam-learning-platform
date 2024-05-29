@@ -1,4 +1,4 @@
-import Logo from './Logo';
+import Logo from '../common/Logo';
 import FooterRow from './FooterRow';
 
 const footerItems1 = [
