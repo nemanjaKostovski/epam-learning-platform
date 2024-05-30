@@ -66,8 +66,7 @@ function Footer() {
         </select>
         <p className='text-gray-700 font-medium'>
           &copy; Learn, {year} inc <strong>&middot;</strong> Privacy{' '}
-          <strong>&middot;</strong>
-          Terms
+          <strong>&middot;</strong> Terms
         </p>
         <FooterIcons />
       </div>
