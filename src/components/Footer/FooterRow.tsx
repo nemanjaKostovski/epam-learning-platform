@@ -3,9 +3,12 @@ import { FooterRowType } from '../../types/index';
 
 export default function FooterRow({ items }: FooterRowType) {
   return (
-    <div className='text-gray-500 text-sm grid grid-cols-3 col-span-2'>
+    <div className='text-gray-500 text-sm flex'>
       {items.map((group, groupIndex) => (
-        <div key={groupIndex} className='mb-6 text-gray-500 text-sm flex-col'>
+        <div
+          key={groupIndex}
+          className='mb-6 text-gray-500 text-sm flex flex-col mr-20'
+        >
           {group.map((item, itemIndex) => (
             <div key={`${item.link}-${itemIndex}`}>
               {itemIndex === 0 && (
