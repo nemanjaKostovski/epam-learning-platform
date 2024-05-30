@@ -26,7 +26,7 @@ const year = new Date().getFullYear();
 function Footer() {
   return (
     <footer className=' pl-[10%] pr-[10%] gap-x-8 gap-y-4 pt-10 bg-gray-50'>
-      <div className='grid grid-cols-5  border-b-2'>
+      <div className='grid grid-cols-5  border-b-2 ml-10'>
         <Logo />
         <FooterRow items={footerItems} />
         <div className='col-span-2 mb-10'>
