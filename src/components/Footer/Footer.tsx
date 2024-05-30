@@ -25,8 +25,8 @@ const year = new Date().getFullYear();
 
 function Footer() {
   return (
-    <footer className=' pl-[10%] pr-[10%] gap-x-8 gap-y-4 pt-10 bg-gray-50'>
-      <div className='flex justify-between border-b-2'>
+    <footer className='pl-[1%] pr-[1%] sm:pl-[10%] sm:pr-[10%] gap-x-8 gap-y-4 pt-10 bg-gray-50'>
+      <div className='xl:flex justify-between border-b-2 lg:grid col-span-2'>
         <Logo />
         <FooterRow items={footerItems} />
         <div className='col-span-2 mb-10'>
@@ -56,7 +56,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className='mt-6 pb-6 flex justify-between'>
+      <div className='mt-6 pb-6 flex justify-between sm:flex-row flex-col items-center'>
         <select
           name='language'
           id='language'

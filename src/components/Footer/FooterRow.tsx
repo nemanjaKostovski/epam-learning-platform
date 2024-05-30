@@ -7,7 +7,7 @@ export default function FooterRow({ items }: FooterRowType) {
       {items.map((group, groupIndex) => (
         <div
           key={groupIndex}
-          className='mb-6 text-gray-500 text-sm flex flex-col mr-20'
+          className='mb-6 text-gray-500 text-sm flex flex-col mr-1 2xl:mr-20 xl:mr-10'
         >
           {group.map((item, itemIndex) => (
             <div key={`${item.link}-${itemIndex}`}>
