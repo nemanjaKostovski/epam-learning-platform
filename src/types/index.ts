@@ -1,5 +1,5 @@
 export type FooterRowType = {
-  items: FooterRowItemType[];
+  items: FooterRowItemType[][];
 };
 
 export type FooterRowItemType = {
