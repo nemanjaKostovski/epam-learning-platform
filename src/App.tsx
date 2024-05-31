@@ -14,7 +14,11 @@ function App() {
       <Navbar />
       <Hero header={hero.header} text={hero.text} imageSrc={hero.imageSrc} />
       <section className=' w-3/4 h-96 ml-[12.5%] mr-[12.5%] mb-20 relative'>
-        <img src='./homepage2.png' alt='bg-image' className='absolute top-14' />
+        <img
+          src='./homepage2.png'
+          alt='bg-image'
+          className='absolute top-14 h-full'
+        />
         <div className='flex flex-col justify-center items-center mt-20 mb-20 w-full h-96 absolute '>
           <h2 className=' text-indigo-600 text-4xl'>Join us</h2>
           <p className=' w-1/2 text-center'>
